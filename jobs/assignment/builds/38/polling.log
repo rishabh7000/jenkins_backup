@@ -1,0 +1,14 @@
+Started on Nov 27, 2022, 12:56:24 PM
+Started by event from 140.82.115.110 ⇒ http://52.198.181.24:8080/github-webhook/ on Sun Nov 27 12:56:24 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 1b0b3fba950761a5d326fc1faf4dc2f39ebc8ba1 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential slave
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/rishabh7000/myrepo.git/ # timeout=10
+Found 3 remote heads on https://github.com/rishabh7000/myrepo.git/
+[poll] Latest remote head revision on refs/heads/master is: aa7740d3468735d36a3a4f0708e00dfe44519e02
+Done. Took 0.52 sec
+Changes found

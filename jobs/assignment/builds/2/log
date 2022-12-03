@@ -1,0 +1,8 @@
+Started by user [8mha:////4HFkq/7sWSCY+8YkIWBsq2ZckbZRUg7vFo/dCmdlwSRtAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZB/dLi1CL9oszijMSkDHMDAwMAvFgSksYAAAA=[0mrishabh goel
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/assignment
+[assignment] $ /bin/sh -xe /tmp/jenkins17347679547345756866.sh
++ sh tom.sh
+sh: 0: cannot open tom.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,9 @@
+commit ffb5b98a4aa91a9e434407457dcc966cb5d2334d
+tree 154335f1d98b834d8002b2bd90a8fa7353821e3a
+parent 0d7bd6f127674696bf9710193c8de443cee639d3
+author rishabh7000 <115066057+rishabh7000@users.noreply.github.com> 2022-11-27 18:41:56 +0530
+committer GitHub <noreply@github.com> 2022-11-27 18:41:56 +0530
+
+    Update sum.sh
+
+:100755 100755 e8c48cc3c65cec7deb17a7c9c650c0526bffbbec b52065cc4c4473dc1046c53c89a3fd7085dd1b1b M	sum.sh

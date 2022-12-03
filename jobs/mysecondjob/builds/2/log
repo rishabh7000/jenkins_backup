@@ -1,0 +1,34 @@
+Started by user [8mha:////4HFkq/7sWSCY+8YkIWBsq2ZckbZRUg7vFo/dCmdlwSRtAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZB/dLi1CL9oszijMSkDHMDAwMAvFgSksYAAAA=[0mrishabh goel
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/mysecondjob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/mysecondjob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rishabh7000/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/rishabh7000/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/rishabh7000/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 86b0ddcb4d736912fd06d4a18c3636fa336d7a41 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 86b0ddcb4d736912fd06d4a18c3636fa336d7a41 # timeout=10
+Commit message: "my commit"
+ > git rev-list --no-walk 86b0ddcb4d736912fd06d4a18c3636fa336d7a41 # timeout=10
+[mysecondjob] $ /bin/sh -xe /tmp/jenkins8523717228615911023.sh
++ ls
+factorial.sh
+file1
+filter.sh
+reverse.sh
+script1.sh
+sum.sh
++ pwd
+/var/lib/jenkins/workspace/mysecondjob
++ sh factorial.sh
+The factorial of 10 is 3628800
+The factorial of 20 is 2432902008176640000
+The factorial of 30 is 265252859812191058636308480000000
+The factorial of 5 is 120
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+Started by user [8mha:////4HFkq/7sWSCY+8YkIWBsq2ZckbZRUg7vFo/dCmdlwSRtAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZB/dLi1CL9oszijMSkDHMDAwMAvFgSksYAAAA=[0mrishabh goel
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/myfirstjob
+[myfirstjob] $ /bin/sh -xe /tmp/jenkins2069199586906630211.sh
++ rm -rf myrepository
++ git clone https://github.com/rishabh7000/myrepo.git
+Cloning into 'myrepo'...
++ pwd
+/var/lib/jenkins/workspace/myfirstjob
++ sh myrepository/factorial.sh
+sh: 0: cannot open myrepository/factorial.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

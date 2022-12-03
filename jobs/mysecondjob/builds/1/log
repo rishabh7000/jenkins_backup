@@ -1,0 +1,32 @@
+Started by user [8mha:////4HFkq/7sWSCY+8YkIWBsq2ZckbZRUg7vFo/dCmdlwSRtAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZB/dLi1CL9oszijMSkDHMDAwMAvFgSksYAAAA=[0mrishabh goel
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/mysecondjob
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/rishabh7000/myrepo.git
+ > git init /var/lib/jenkins/workspace/mysecondjob # timeout=10
+Fetching upstream changes from https://github.com/rishabh7000/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/rishabh7000/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rishabh7000/myrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 86b0ddcb4d736912fd06d4a18c3636fa336d7a41 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 86b0ddcb4d736912fd06d4a18c3636fa336d7a41 # timeout=10
+Commit message: "my commit"
+First time build. Skipping changelog.
+[mysecondjob] $ /bin/sh -xe /tmp/jenkins11860266747953301261.sh
++ ls
+factorial.sh
+file1
+filter.sh
+reverse.sh
+script1.sh
+sum.sh
++ pwd
+/var/lib/jenkins/workspace/mysecondjob
+Finished: SUCCESS

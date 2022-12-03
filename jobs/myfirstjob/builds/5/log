@@ -1,0 +1,8 @@
+Started by user [8mha:////4HFkq/7sWSCY+8YkIWBsq2ZckbZRUg7vFo/dCmdlwSRtAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZB/dLi1CL9oszijMSkDHMDAwMAvFgSksYAAAA=[0mrishabh goel
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/myfirstjob
+[myfirstjob] $ /bin/sh -xe /tmp/jenkins17808318242745958403.sh
++ git clone https://github.com/rishabh7000/myrepo.git
+fatal: destination path 'myrepo' already exists and is not an empty directory.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

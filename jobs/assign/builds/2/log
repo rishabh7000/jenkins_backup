@@ -1,0 +1,26 @@
+Started by user [8mha:////4HFkq/7sWSCY+8YkIWBsq2ZckbZRUg7vFo/dCmdlwSRtAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZB/dLi1CL9oszijMSkDHMDAwMAvFgSksYAAAA=[0mrishabh goel
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/assign
+The recommended git tool is: NONE
+using credential buildslave
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/assign/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rishabh7000/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/rishabh7000/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/rishabh7000/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision bab8ad48c75ee4f902a85ed2c835c46f04ce6cd6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bab8ad48c75ee4f902a85ed2c835c46f04ce6cd6 # timeout=10
+Commit message: "Update sum.sh"
+ > git rev-list --no-walk bab8ad48c75ee4f902a85ed2c835c46f04ce6cd6 # timeout=10
+[assign] $ /bin/sh -xe /tmp/jenkins12135951719500972490.sh
++ sh factorial.sh
+The factorial of 10 is 3628800
+The factorial of 20 is 2432902008176640000
+The factorial of 30 is 265252859812191058636308480000000
+The factorial of 5 is 120
+Finished: SUCCESS

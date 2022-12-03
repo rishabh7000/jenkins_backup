@@ -1,0 +1,29 @@
+Started by GitHub push by rishabh7000
+Running as SYSTEM
+Building remotely on [8mha:////4IGhR2MPJ/3DJuCBUyA3UYCo2uDsz8vgYSG4cIwHm/JtAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYR/eT83ILSktQi/aTSzJyU4pzEslQAs+Jdd8kAAAA=[0mbuildslave (slave) in workspace /home/slave/workspace/assign
+The recommended git tool is: NONE
+using credential buildslave
+Cloning the remote Git repository
+Cloning repository https://github.com/rishabh7000/myrepo.git
+ > git init /home/slave/workspace/assign # timeout=10
+Fetching upstream changes from https://github.com/rishabh7000/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/rishabh7000/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rishabh7000/myrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f6311c1bdaf4a6f4ac3a2c5fdfe803ecff12f64f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f6311c1bdaf4a6f4ac3a2c5fdfe803ecff12f64f # timeout=10
+Commit message: "Update sum.sh"
+ > git rev-list --no-walk bab8ad48c75ee4f902a85ed2c835c46f04ce6cd6 # timeout=10
+[assign] $ /bin/sh -xe /tmp/jenkins11473709451329195641.sh
++ sh factorial.sh
+The factorial of 10 is 3628800
+The factorial of 20 is 2432902008176640000
+The factorial of 30 is 265252859812191058636308480000000
+The factorial of 5 is 120
+Finished: SUCCESS

@@ -1,0 +1,24 @@
+Started by GitHub push by rishabh7000
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/assignment
+The recommended git tool is: NONE
+using credential slave
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/assignment/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rishabh7000/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/rishabh7000/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/rishabh7000/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 64a5af4961736dd0a7bad4df0c15f282f340d1ae (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 64a5af4961736dd0a7bad4df0c15f282f340d1ae # timeout=10
+Commit message: "Update sh news.sh"
+ > git rev-list --no-walk 99d1eb4781c4d05bc834fb74ea92083538f291ae # timeout=10
+[assignment] $ /bin/sh -xe /tmp/jenkins17540430521311726510.sh
++ sh news.sh
+sh: 0: cannot open news.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

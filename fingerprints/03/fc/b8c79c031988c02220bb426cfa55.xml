@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-12-01 01:22:46.493 UTC</timestamp>
+  <md5sum>03fcb8c79c031988c02220bb426cfa55</md5sum>
+  <fileName>Credential id=522fa5f0-f7b1-41ad-bf9c-30e9d2209772 name=ubuntu/****** (mypipe)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1670029540477</timestamp>
+      <nodeName>server</nodeName>
+      <timestamp0>1669980490163</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

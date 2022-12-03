@@ -1,0 +1,9 @@
+commit 64a5af4961736dd0a7bad4df0c15f282f340d1ae
+tree ba6260a3106eadbfe3881188258d82157b8ca0d4
+parent 99d1eb4781c4d05bc834fb74ea92083538f291ae
+author rishabh7000 <115066057+rishabh7000@users.noreply.github.com> 2022-11-27 17:37:06 +0530
+committer GitHub <noreply@github.com> 2022-11-27 17:37:06 +0530
+
+    Update sh news.sh
+
+:100644 100644 f1ab2ce9f4317ba49045152471d63380fbefe325 e6429f9a2af3e45b15154b035ee584d15dca88ab M	sh news.sh
